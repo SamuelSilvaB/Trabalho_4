@@ -31,35 +31,25 @@ sudo apt-get update sudo apt-get install git
 Como rodar a aplicação :arrow_forward:
 </h1>
 
-Clone o progeto no terminal:
-
+Clone o projeto no terminal:
 ```
-git clone 
-
-
-
-______________________________________________________________________________
-
-
-
-
-## Download
-Cole o seguinte comando no terminal para obter o código do projeto.
+git clone https://github.com/SamuelSilvaB/trabalho_4.git
 ```
-git clone https://github.com/SamuelSilvaB/trabalho_4.git 
+Logo após clonar o projeto, entre na pasta clonada com o seguinte comando no terminal:
 ```
-
-## Gerar bibliotecas
-Cole o seguinte comando no terminal para gerar as bibliotecas do projeto.
+cd trabalho_4
+```
+Em seguida, obtenha as bibliotecas com o seguinte comando:
 ```
 gcc -c trabalho_4.c
 ```
-
 ## Compilação
-Cole o seguinte comando no terminal para gerar o compilado do projeto.
+
+Cole o comando no terminal para gera um arquivo execultável:
+
 ```
 gcc ./trabalho_4.o ./main.c -o main
-``` 
+```
 
 ## Execução
 Cole um dos seguintes comandos para rodar o projeto:
@@ -74,14 +64,15 @@ Windows:
 ./main.exe
 ```
 
-## Alterando o código
-Primeiramente é necessário criar uma estrutura do tipo vetor ordenado na função main do arquivo `main.c`. Para isso, basta chamar a função `VETORD_create` e passar como parâmetro: o tamanho do vetor que será criado e uma função de comparação. \ 
-\
-Para adicionar elementos no vetor basta chamar a função `VETORD_add` e passar como parâmetro: a estrutura do vetor e o valor inteiro que será adicionado. \ 
-\
-Para remover elementos no vetor basta chamar a função `VETORD_remove` e passar como parâmetro: a estrutura do vetor. \ 
-\
-E para imprimir o vetor, basta chamar a função `print` e passar como parâmetro: os elementos do vetor e o tamanho do vetor.
+## Mudando o código
+Será necessário fazer um vetor ordenado na função main do arquivo `main.c`, para isso dasta ussar a função `VETORD_create` e passar os parâmetros: tamanho do vetor criado e a função de comparação.
 
-## Linguagens utilizadas
-- `C`
+### Adicionando e remover elementos no vetor
+Para adicionar elementos ao vetor use a função `VETORD_add` e passar a estrutura  do veotor e o valor do interio adicionado como parâmetro.
+<br>
+Para remover elementos no vetor use a função `VETORD_remove` e passar como parâmetro a estrutura do vetor.
+
+### Imprimir
+para imprimir o vetor, basta chamar a função `print` e passar como parâmetro: os elementos do vetor e o tamanho do vetor.
+
+
