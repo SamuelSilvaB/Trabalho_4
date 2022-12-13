@@ -1,28 +1,64 @@
-## Trabalho 4 de Laboratório
-![Badge concluído](http://img.shields.io/static/v1?label=STATUS&message=CONCLUÍDO&color=GREEN&style=for-the-badge)
+<h1 align="center">Trabalho 4</h1><br>
 
-## Descrição do repositório
-Este repositório contém o trabalho 4 da disciplina de laborátorio de programação, que contém uma função para criar uma estrutura para o vetor ordenado. Além de funções para inserir e remover números inteiros neste vetor de forma ordenada.
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-## Primeiros passos
-Primeiramente é necessário ter o `gcc` e o `git` em sua máquina.
+<h1 align="center">Problema</h1>
+
+<h3>Implementar uma função que cria uma estrutura para o vetor ordenado. Além de funções para inserir e remover números inteiros neste vetor de forma ordenada.</h3><br>
+
+### :warning: Para rodar a aplicação é nescessario ter o `gcc` e o `git` instalado na sua máquina, caso já tenha avance para: 
+
+:small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
+
+<h1 align="center">instalando o Gcc </h1>
+
+No terminal digite o seguinte comando:
+
+```
+sudo apt update 
+
+sudo apt install build-essential
+```
+
+<h1 align="center">instalando o Git </h1>
+
+No terminal digite o seguinte comando:
+
+```
+sudo apt-get update sudo apt-get install git
+```
+<h1 align="center">
+Como rodar a aplicação :arrow_forward:
+</h1>
+
+Clone o progeto no terminal:
+
+```
+git clone 
+
+
+
+______________________________________________________________________________
+
+
+
 
 ## Download
 Cole o seguinte comando no terminal para obter o código do projeto.
 ```
-$ git clone https://github.com/PedroHenriqueFerreira/Trabalho4Lab.git 
+git clone https://github.com/SamuelSilvaB/trabalho_4.git 
 ```
 
 ## Gerar bibliotecas
 Cole o seguinte comando no terminal para gerar as bibliotecas do projeto.
 ```
-$ gcc -c trabalho_4.c
+gcc -c trabalho_4.c
 ```
 
 ## Compilação
 Cole o seguinte comando no terminal para gerar o compilado do projeto.
 ```
-$ gcc ./trabalho_4.o ./main.c -o main
+gcc ./trabalho_4.o ./main.c -o main
 ``` 
 
 ## Execução
@@ -30,12 +66,12 @@ Cole um dos seguintes comandos para rodar o projeto:
 
 Linux:
 ```
-$ ./main
+./main
 ```
 
 Windows:
 ```
-$ ./main.exe
+./main.exe
 ```
 
 ## Alterando o código
