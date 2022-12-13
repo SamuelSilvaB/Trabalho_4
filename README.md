@@ -75,4 +75,6 @@ Para remover elementos no vetor use a função `VETORD_remove` e passar como par
 ### Imprimir
 para imprimir o vetor, basta chamar a função `print` e passar como parâmetro: os elementos do vetor e o tamanho do vetor.
 
+<h2 align="center">✔️ Tecnologia utilizada </h2>
 
+- ``C``
